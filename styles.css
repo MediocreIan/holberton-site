@@ -19,6 +19,18 @@ aside {
 	flex: 1;
 	overflow-y: auto;
 }
+/*flexbox for team logos*/
+.column {
+	float: left;
+	width: auto;
+	padding: 5px;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Dropdown Button */
 .dropbtn {
