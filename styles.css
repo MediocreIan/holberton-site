@@ -8,12 +8,11 @@ body {
 
 main {
 	flex-direction: row;
-	flex: auto;
 }
 
 article {
 	flex: 2;
-	overflow-y: auto;
+	overflow-y: scroll;
 }
 aside {
 	flex: 1;
@@ -26,10 +25,10 @@ aside {
 	padding: 5px;
 }
 
-.row{
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
 /* Dropdown Button */
