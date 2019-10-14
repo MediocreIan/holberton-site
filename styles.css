@@ -23,6 +23,7 @@ article {
 aside {
 	flex: 1;
 	overflow-y: auto;
+	background-color: white;
 }
 header {
 	/*float: left;*/
