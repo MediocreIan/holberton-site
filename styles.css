@@ -15,16 +15,15 @@ main {
 article {
     flex: 2;
     overflow-y: scroll;
+    background-color: white;
 }
 aside {
-<<<<<<< HEAD
 	flex: 1;
 	overflow-y: auto;
 	background-color: white;
-=======
+
     flex: 1;
     overflow-y: auto;
->>>>>>> c7f12e3527ca6cfbbbfee47d16c419f4262a46d5
 }
 header {
     /*float: left;*/
