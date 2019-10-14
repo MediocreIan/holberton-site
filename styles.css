@@ -14,12 +14,23 @@ main {
 }
 article {
     flex: 2;
+<<<<<<< HEAD
     overflow-y: auto;
+=======
+    overflow-y: scroll;
+    background-color: white;
+>>>>>>> c5ddbdb8bd2369939136c2bd0c462d9792f99293
 }
 aside {
 	flex: 1;
 	overflow-y: auto;
 	background-color: white;
+<<<<<<< HEAD
+=======
+
+    flex: 1;
+    overflow-y: auto;
+>>>>>>> c5ddbdb8bd2369939136c2bd0c462d9792f99293
 }
 header {
     /*float: left;*/
