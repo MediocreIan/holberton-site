@@ -5,11 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     background: #ffffff url(https://vignette.wikia.nocookie.net/marblelympics/images/5/50/Wiki-background/revision/latest?cb=20190810173425) top center repeat;
+    font: 100% georgia, sans-serif;
+    line-height: 1.5;
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    color: #070a1dbd;
 }
 article {
     flex: 2;
@@ -32,15 +35,17 @@ footer {
     background-color: white;
 }
 header img {
-    max-width: 95%;
-    max-height: 95%;
+    height: 50px;
     padding-left: 10vh;
 }
 aside {
     flex: 1;
     overflow-y: auto;
 }
-.twitter-timeline {}
+
+main a {font-weight:bold;
+	color: #141f67bd;
+  }
 /*flexbox for team logos*/
 
 .column {
